@@ -111,6 +111,7 @@ Inside ``` accounts ```, add your private key (of the account that already is fe
 P.S: It really does not matter if you write "mumbai", "polygon", or "matic" in your hardhat.config file. what matters is what is inside the _url_ and _accounts_ fields.  
 ## Creating an Alchemy app
 Register if it is your first time wiht Alchemy. Go to https://dashboard.alchemyapi.io/ and hit _CREATE APP_. Choose Polygon as a chain and Polygon Mumbai as a network. Alright, in your dashboard, go into your newly-created app's page and hit _view key_(Use the http one). copy this key, and paste inside the double quotaions in the _url_ field (in hardhat.config).
+
 ## Deploying with Hardhat - Adding the contract:
 Create a directory in your project root, name it "contracts". Now, cd into it and create a Storage.sol file, paste this (the same code as we did on Remix):
 ```js
